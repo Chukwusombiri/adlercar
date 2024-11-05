@@ -214,4 +214,6 @@ return [
         // 'ExampleClass' => App\Example\ExampleClass::class,
     ])->toArray(),
 
+    'phone' => '+1 (260) 255-5595',
+
 ];

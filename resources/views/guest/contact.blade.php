@@ -13,8 +13,7 @@
             <div>
                 <h2 class="text-2xl font-bold mb-4">Contact Information</h2>
                 <p class="text-gray-600 mb-2"><strong>Address:</strong> 3547 Kingsboro road, Atlanta, Georgia, US</p>
-                <p class="text-gray-600 mb-2"><strong>Phone:</strong> +1 (260) 255-5595</p>
-                <p class="text-gray-600 mb-2"><strong>Phone:</strong> +212652238259</p>
+                <p class="text-gray-600 mb-2"><strong>Phone:</strong> {{config('app.phone')}}</p>
                 <p class="text-gray-600 mb-2"><strong>Email:</strong> info@adlercargo.com</p>
                 <p class="text-gray-600 mb-2"><strong>Working Hours:</strong> Mon-Fri: 8am-6pm, Sat-Sun: Closed</p>               
             </div>

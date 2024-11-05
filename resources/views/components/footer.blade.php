@@ -349,7 +349,7 @@
                         <div class="mb-6 items-center">
                             <div class="flex flex-nowrap pb-4">
                                 <a
-                                href="tel:{{$adler->tel ?? '09045372121'}}"
+                                href="tel:{{config('app.phone')}}"
                                 class="text-dark bg-slate-300 hover:bg-indigo-600 hover:border-primary mr-3 flex h-8 w-8 items-center 
                                 justify-center rounded-full border border-[#E5E5E5] hover:text-white sm:mr-2 lg:mr-1 xl:mr-2"
                                 >
@@ -363,7 +363,7 @@
                                     </svg>
                                     
                                 </a>
-                                <span>{{$adler->tel ?? '09045372121'}}</span>
+                                <span>{{config('app.phone')}}</span>
                             </div>
                             <div class="flex flex-nowrap">
                                 <a
